@@ -1,0 +1,13 @@
+@client.command()
+@author.has_role('RoleName')
+async def command_name(test):
+    if message.author == client.user:
+        return
+
+    if message.content.startswith('$hello'):
+        await message.channel.send('Hello!')
+
+
+        if person.has_role(discord.utils.find(lambda r: r.name == 'Time Wizard')):
+        role = discord.utils.get(person.server.roles, id="900438142371377172")
+        if person.has_role(role):
